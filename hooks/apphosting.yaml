@@ -1,0 +1,6 @@
+# apphosting.yaml
+build:
+  build_command: "npm run build:web"
+  output_directory: "dist"
+run:
+  start_command: "node server.js"
